@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-31T17:30:46.701583",
+  "results": {
+    "v1": {
+      "correct": 0,
+      "total": 0,
+      "times": [],
+      "details": []
+    },
+    "v2": {
+      "correct": 5,
+      "total": 5,
+      "times": [
+        80.26628184318542,
+        189.0901918411255,
+        134.39899897575378,
+        84.18407225608826,
+        30.331478118896484
+      ],
+      "details": []
+    },
+    "samples": [
+      {
+        "id": 0,
+        "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+        "expected": "18",
+        "v1_answer": null,
+        "v1_correct": false,
+        "v1_time": 0,
+        "v2_answer": "18",
+        "v2_correct": true,
+        "v2_time": 80.26628184318542,
+        "v2_meta": {
+          "confidence": 0.85,
+          "complexity": "simple",
+          "execution_path": [
+            "planning",
+            "direct_v1"
+          ],
+          "verification": null,
+          "subtasks": 1
+        }
+      },
+      {
+        "id": 1,
+        "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+        "expected": "3",
+        "v1_answer": null,
+        "v1_correct": false,
+        "v1_time": 0,
+        "v2_answer": "3",
+        "v2_correct": true,
+        "v2_time": 189.0901918411255,
+        "v2_meta": {
+          "confidence": 0.85,
+          "complexity": "simple",
+          "execution_path": [
+            "planning",
+            "direct_v1"
+          ],
+          "verification": null,
+          "subtasks": 1
+        }
+      },
+      {
+        "id": 2,
+        "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "expected": "70000",
+        "v1_answer": null,
+        "v1_correct": false,
+        "v1_time": 0,
+        "v2_answer": "70000",
+        "v2_correct": true,
+        "v2_time": 134.39899897575378,
+        "v2_meta": {
+          "confidence": 0.95,
+          "complexity": "simple",
+          "execution_path": [
+            "planning",
+            "direct_v1"
+          ],
+          "verification": null,
+          "subtasks": 1
+        }
+      },
+      {
+        "id": 3,
+        "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+        "expected": "540",
+        "v1_answer": null,
+        "v1_correct": false,
+        "v1_time": 0,
+        "v2_answer": "540",
+        "v2_correct": true,
+        "v2_time": 84.18407225608826,
+        "v2_meta": {
+          "confidence": 0.85,
+          "complexity": "simple",
+          "execution_path": [
+            "planning",
+            "direct_v1"
+          ],
+          "verification": null,
+          "subtasks": 1
+        }
+      },
+      {
+        "id": 4,
+        "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+        "expected": "20",
+        "v1_answer": null,
+        "v1_correct": false,
+        "v1_time": 0,
+        "v2_answer": "20",
+        "v2_correct": true,
+        "v2_time": 30.331478118896484,
+        "v2_meta": {
+          "confidence": 0.85,
+          "complexity": "simple",
+          "execution_path": [
+            "planning",
+            "direct_v1"
+          ],
+          "verification": null,
+          "subtasks": 1
+        }
+      }
+    ]
+  },
+  "stats": {
+    "v2": {
+      "accuracy": 100.0,
+      "correct": 5,
+      "total": 5,
+      "avg_time": 103.65420460700989,
+      "min_time": 30.331478118896484,
+      "max_time": 189.0901918411255,
+      "complexity_distribution": {
+        "simple": 5
+      },
+      "path_distribution": {
+        "planning \u2192 direct_v1": 5
+      },
+      "verification_rate": 0.0,
+      "verification_accuracy": 0
+    }
+  }
+}
